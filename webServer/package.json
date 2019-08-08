@@ -1,0 +1,13 @@
+{
+  "name": "webserver0.1",
+  "version": "0.0.1",
+  "description": "first web server",
+  "main": "mainTest.js",
+  "scripts": {
+    "start": "node mainTest.js",
+    "dev": "nodemon mainTest.js"
+
+  },
+  "author": "Luca Virgilio",
+  "license": "ISC"
+}

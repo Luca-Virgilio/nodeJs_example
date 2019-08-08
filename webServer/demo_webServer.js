@@ -6,5 +6,5 @@ http.createServer(function (req, res){
     res.write("hello Client");
     res.end();
 
-}).listen(8080);
+}).listen(8080, () => console.log('server is running ...'));
 
